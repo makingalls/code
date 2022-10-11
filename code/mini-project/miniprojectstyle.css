@@ -1,0 +1,68 @@
+/* All - color and font */
+* {
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* add/fix header background */
+header {
+    background: darkblue;
+}
+header h1 {
+    display: block;
+    top: 5px;
+/* Fix sticky scroll */
+    position: sticky;
+    text-align: center;
+    text-emphasis: circle;
+}
+/* Nav */
+nav {
+    
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Image */
+figure {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+figcaption {
+    font-size: x-small;
+    color: grey;
+    font-style: italic;
+}
+/* Portfolio */
+#portfolio {
+    width: 300px;
+}
+/* Contact */
+#contactus h3 {
+    text-decoration: underline;
+    text-align: center;
+    display: block
+}
+ .contact{
+    text-align: center;
+    
+}
+#comment {
+    text-align: center;
+}
+::placeholder {
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    color: gray;
+    opacity: .5;
+}
+#submit {
+    width: 100px;
+    display: block;
+    position: absolute;
+    margin-left: 250px;
+}
